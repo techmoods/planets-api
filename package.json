@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.6.7",
+    "nodemon": "^2.0.20"
+  },
+  "name": "planets-api",
+  "description": "Planets API is a web application that provides users with detailed information about each of the \r planets in the solar system. Users can choose from the eight planets to learn about, vote on their favorite, and write comments to a message board.",
+  "version": "1.0.0",
+  "main": "api/server.js",
+  "devDependencies": {},
+  "scripts": {
+    "watch": "nodemon",
+    "prod": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techmoods/planets-api.git"
+  },
+  "author": "brandon thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techmoods/planets-api/issues"
+  },
+  "homepage": "https://github.com/techmoods/planets-api#readme"
+}
