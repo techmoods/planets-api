@@ -42,3 +42,10 @@ The learning curve with React and connecting my frontend to the backend was a ch
 - When a user subscribes the data is not being persisted properly to the database. Specifically, it does persist however the only data being recorded is an ID and __v field. I haven't been able to determine the cause though I believe it's something to do with Axios communicating HTTP requests from my frontend to the backend. The request happens but the data passed through is an empty object.
 
 - My understanding of how to implement this particular stack is underdeveloped and I wasn't able to commit as much time as I wanted to with my current workload. I'm however looking forward to dedicating more time to learn more about the tools I used in this project and how they work.
+
+## Instructions
+
+To start the application run
+(path: command)
+planet-api/server: nodemon server
+planet-api/client: npm run start
